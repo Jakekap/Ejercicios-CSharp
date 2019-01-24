@@ -17,17 +17,23 @@ namespace EjerciciosProgramacion
             Console.WriteLine("Ingrese del valor de cateto mayor del triangulo rectangulo >>");
             double z = double.Parse(Console.ReadLine());
 
-            // Operaciones Matematicas
-            double t = Math.Round(Math.Sqrt(Math.Pow(y, 2) + Math.Pow(z, 2)),2);
-            double c = Math.Round(Math.Atan(z / y) * (180 / Math.PI),2);
-            double a = Math.Round(Math.Atan(y / z) * (180 / Math.PI),2);
+            if (y < z)
+            {
+                // Operaciones Matematicas
+                double t = Math.Round(Math.Sqrt(Math.Pow(y, 2) + Math.Pow(z, 2)), 2);
+                double c = Math.Round(Math.Atan(z / y) * (180 / Math.PI), 2);
+                double a = Math.Round(Math.Atan(y / z) * (180 / Math.PI), 2);
 
-            
-            // Salida de datos
-            Console.WriteLine("La hipotenusa del Triangulo Rectangulo es >> " + t );
-            Console.WriteLine("El angulo que forma el cateto menor con la hipotenusa es >> " + c );
-            Console.WriteLine("El angulo que forma el cateto mayor con la hipotenusa es >> " + a );
 
+                // Salida de datos
+                Console.WriteLine("La hipotenusa del Triangulo Rectangulo es >> " + t);
+                Console.WriteLine("El angulo que forma el cateto menor con la hipotenusa es >> " + c);
+                Console.WriteLine("El angulo que forma el cateto mayor con la hipotenusa es >> " + a);
+            }
+            else
+            {
+                Console.WriteLine("El cateto menor no puede ser el mayor!");
+            }
 
         }
     }
