@@ -14,7 +14,7 @@ namespace Desafio_02_02
             // Ingreso de datos
             Console.WriteLine("Ingrese del valor de la hipotenusa del triangulo rectangulo >>");
             double t = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese del valor del angulo formado por la hipotenusa y el cateto mayor >>");
+            Console.WriteLine("Ingrese del valor del angulo formado por la hipotenusa y el cateto mayor\n(Debe ser menor o igual a 45°) >>");
             double a = double.Parse(Console.ReadLine());
 
             // Operaciones Matematicas
