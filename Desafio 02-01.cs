@@ -12,9 +12,9 @@ namespace EjerciciosProgramacion
         {
             
             // Ingreso de datos
-            Console.WriteLine("Ingrese del valor de cateto (Y) del triangulo rectangulo >>");
+            Console.WriteLine("Ingrese del valor de cateto menor del triangulo rectangulo >>");
             double y = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese del valor de cateto (Z) del triangulo rectangulo >>");
+            Console.WriteLine("Ingrese del valor de cateto mayor del triangulo rectangulo >>");
             double z = double.Parse(Console.ReadLine());
 
             // Operaciones Matematicas
@@ -25,8 +25,8 @@ namespace EjerciciosProgramacion
             
             // Salida de datos
             Console.WriteLine("La hipotenusa del Triangulo Rectangulo es >> " + t );
-            Console.WriteLine("El angulo que forma (Y) con la hipotenusa es >> " + c );
-            Console.WriteLine("El angulo que forma (Z) con la hipotenusa es >> " + a );
+            Console.WriteLine("El angulo que forma el cateto menor con la hipotenusa es >> " + c );
+            Console.WriteLine("El angulo que forma el cateto mayor con la hipotenusa es >> " + a );
 
 
         }
