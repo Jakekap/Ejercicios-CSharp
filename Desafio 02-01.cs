@@ -17,7 +17,7 @@ namespace EjerciciosProgramacion
             Console.WriteLine("Ingrese del valor de cateto mayor del triangulo rectangulo >>");
             double z = double.Parse(Console.ReadLine());
 
-            if (y < z)
+            if (y <= z)
             {
                 // Operaciones Matematicas
                 double t = Math.Round(Math.Sqrt(Math.Pow(y, 2) + Math.Pow(z, 2)), 2);
