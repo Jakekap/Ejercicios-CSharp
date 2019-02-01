@@ -11,7 +11,7 @@ namespace Desafio01
             Console.WriteLine("Ingrese su SMMLV para calcular su tarifa >> ");
             double dinero = double.Parse(Console.ReadLine());
 
-            double smmlv = dinero / 828.116; 
+            double smmlv = dinero / 828116; 
 
             //Condiciones
 
