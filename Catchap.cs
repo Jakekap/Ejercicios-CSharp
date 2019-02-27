@@ -16,9 +16,9 @@ namespace ConsoleApp4
             while (n4 != solucion)
             {
                 if (vidas == 0) break;
-                n1 = aleatorio.Next(1, 99);
-                n2 = aleatorio.Next(1, 99);
-                n3 = aleatorio.Next(1, 99);
+                n1 = aleatorio.Next(1, 100);
+                n2 = aleatorio.Next(1, 100);
+                n3 = aleatorio.Next(1, 100);
                 solucion = n1 + n2 + n3;
                 Console.WriteLine("Ingrese el resultado de la suma>> ");
                 Console.Write(n1 + " + " + n2 + " + " + n3 + " = ");
